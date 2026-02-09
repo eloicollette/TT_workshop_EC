@@ -8,7 +8,7 @@
 
 `default_nettype none
 
-module tt_um_eloicollette_TTWS (
+module tt_um_vga_example (
     input  wire [7:0] ui_in,    // Dedicated inputs
     output wire [7:0] uo_out,   // Dedicated outputs
     input  wire [7:0] uio_in,   // IOs: Input path
@@ -42,7 +42,7 @@ module tt_um_eloicollette_TTWS (
     wire direction = ui_in[1];  // 0=outward, 1=inward
 
     // Centered coordinates (signed)
-    wire signed [10:0] cx = $signed({1'b0, hpos}) - 11'0;
+    wire signed [10:0] cx = $signed({1'b0, hpos}) - 11'd0;
     wire signed [10:0] cy = $signed({1'b0, vpos}) - 11'sd240;
 
     // Absolute values
