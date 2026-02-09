@@ -13,8 +13,8 @@ The project is just a test of the workshop vga program, where the x-center is of
 
 ## How to test
 
-Project used in the same way as the vga example of the worksjhop.
+Project used in the same way as the vga example of the workshop.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+No external HW.
